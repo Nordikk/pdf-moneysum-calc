@@ -4,8 +4,8 @@ This Python program reads money amounts from PDF files and calculates the total 
 
 ## 🚀 Getting Started
 
-1. Clone the repository: `git clone https://github.com/<username>/<repository>.git`
-2. Navigate to the directory: `cd <repository>/pdf-money-reader`
+1. Clone the repository: `git clone https://github.com/Nordikk/pdf-moneysum-calc.git`
+2. Navigate to the directory: `cd <repository>`
 3. Install the required Python libraries: `pip install PyPDF2`
 4. Place the PDF files you want to read in the `pdf` directory
 5. Run the program: `python moneyreader.py`
