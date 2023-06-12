@@ -14,7 +14,7 @@ for pdf_file in pdf_files:
         for page in range(len(pdf_reader.pages)):
             content += pdf_reader.pages[page].extract_text()
 
-    money_regex = r'Gesamtpreis.*?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s*(?:€|EUR))'
+    money_regex = r'(?:Gesamt|Zwischen)summe.*?(\d{1,3}(?:\.\d{3})*(?:,\d{2})?\s*(?:€|EUR))'
     match = re.search(money_regex, content, re.DOTALL)
 
     if match:
